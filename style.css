@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-image: url("images/bgcolorimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+.container h1 {
+  color: rgb(10, 7, 7);
+  font-size: 40px;
+  text-decoration: underline rgb(101, 92, 41);
+  padding: 0 0 20px 0;
+}
+
+.search-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  border-radius: 10px;
+}
+
+.search-box input {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 25px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0 40px 0 20px;
+  color: rgb(12, 10, 10);
+}
+
+.search-box input::placeholder {
+  color: rgb(15, 15, 15);
+}
+
+.search-box button {
+  font-size: 25px;
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-box button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.weatherinfo {
+  width: 90%;
+  height: 40vh;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 5);
+}
+
+.weatherinfo h2 {
+  padding: 20px 0 10px;
+  color: white;
+  font-size: 50px;
+}
+
+.weatherinfo p {
+  color: white;
+  font-size: 28px;
+  padding: 10px 0 0;
+}
